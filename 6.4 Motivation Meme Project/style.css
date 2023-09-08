@@ -1,0 +1,23 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body{
+    background-color: black;
+}
+img{
+    border: solid white;
+    border-width: 10px;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
