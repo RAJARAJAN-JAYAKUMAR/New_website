@@ -1,1 +1,54 @@
 /* Write your code here: */
+h1, h2 {
+    color: blue;
+}
+
+/* this way of styling is parent-child method 
+syntax::
+selector > selector{
+    property:value
+}
+*/
+.box > p  {
+    color: firebrick;
+}
+
+/* Descebdant method 
+syntax::
+selector selector{
+    property:value
+}
+*/
+.box li{
+    color: red;
+}
+
+/* .box > li {
+    color: yellow;
+
+in here im using parent child selector but it wont work because its a grand child
+} */
+
+
+/* chaining method 
+Syntx::
+  selectoselector{
+    Property: Value
+  }
+always start off with element name to avoid name clash
+*/
+li.done{
+    color: blue;
+}
+
+/* Combining Combiners
+syntax
+
+selector selectorselector{
+    Property: Value
+}
+*/
+ul p.done{
+    font-size: 1.5rem;
+}
+/* you can use parent child method also because it has one child */
